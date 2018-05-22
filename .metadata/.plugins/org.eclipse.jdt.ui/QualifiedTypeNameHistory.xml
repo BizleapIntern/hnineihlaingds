@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.bizleap.training.ds.service.dao.EmployeeDao"/>
+<fullyQualifiedTypeName name="com.bizleap.training.ds.service.dao.CompanyDao"/>
+<fullyQualifiedTypeName name="com.bizleap.commons.domain.enums.EntityType"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="com.bizleap.core.domain.service.impl.test.ServiceTest"/>
+<fullyQualifiedTypeName name="com.bizleap.training.ds.loader.impl.DataManagerImpl"/>
+<fullyQualifiedTypeName name="org.apache.commons.collections4.CollectionUtils"/>
+<fullyQualifiedTypeName name="org.junit.Ignore"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="com.bizleap.training.ds.service.dao.impl.AbstractDaoImpl"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.bizleap.training.ds.loader.CompanySaver"/>
+<fullyQualifiedTypeName name="com.bizleap.commons.domain.exception.ServiceUnavailableException"/>
+<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+<fullyQualifiedTypeName name="com.bizleap.commons.domain.Company"/>
+<fullyQualifiedTypeName name="com.bizleap.commons.domain.Employee"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="com.bizleap.training.ds.service.CompanyService"/>
+<fullyQualifiedTypeName name="com.bizleap.training.ds.service.EmployeeService"/>
+</qualifiedTypeNameHistroy>

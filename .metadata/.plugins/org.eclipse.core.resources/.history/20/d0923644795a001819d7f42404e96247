@@ -1,0 +1,43 @@
+package com.bizleap.training.ds.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.bizleap.commons.domain.Company;
+import com.bizleap.commons.domain.enums.EntityType;
+import com.bizleap.training.ds.service.CompanyService;
+import com.bizleap.training.ds.service.dao.CompanyDao;
+
+@Service("companyService")
+public class CompanyServiceImpl extends AbstractServiceImpl implements CompanyService {
+	
+	CompanyDao companyDao;
+	
+	@Override
+	public List<Company> findCompanyByBoId(String boId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void saveCompany(Company company) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Company> getAllCompany() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	@Override
+	public long getCount() {
+		return companyDao.getCount("select count(comp) from Company comp");
+	}
+	
+	public String getNextBoId() {
+		return getNextBoId(EntityType.COMPANY);
+	}
+}

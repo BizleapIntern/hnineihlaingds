@@ -1,0 +1,44 @@
+package com.bizleap.training.ds.loader.impl;
+
+import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bizleap.commons.domain.Company;
+import com.bizleap.commons.domain.exception.ServiceUnavailableException;
+import com.bizleap.training.ds.loader.CompanySaver;
+import com.bizleap.training.ds.loader.utils.Printer;
+
+@Service("companySaver")
+public class CompanySaverImpl implements CompanySaver {
+	private static Logger logger = Logger.getLogger(AssociationMapperImpl.class);
+	private static Printer printer = new Printer(logger);
+	
+	@Autowired
+	AbstractDaoImpl abstractDaoImpl;
+	
+	List<Company> companyList;
+	
+	@Override
+	public void savePass1() throws ServiceUnavailableException{
+		for(Company company:getCompanyList()) {
+			Company toSaveCompany=new Company(company.getBoId());
+			toSaveCompany.setBoId(company.getBoId());
+			toSaveCompany.setName(company.getName());
+			toSaveCompany.setCeo(company.getCeo());
+			toSaveCompany.setAddress(company.getAddress());
+			toSaveCompany.setEmail(company.getEmail());
+			toSaveCompany.setPhone(company.getPhone());			
+			
+			abstractDaoImpl.saveOrUpdate(toSaveCompany);
+		}
+	}
+	
+	public List<Company> getCompanyList(){
+	@Override
+	public void setCompanyList(List<Company> companyList) {
+		this.companyList=companyList;
+	}
+}

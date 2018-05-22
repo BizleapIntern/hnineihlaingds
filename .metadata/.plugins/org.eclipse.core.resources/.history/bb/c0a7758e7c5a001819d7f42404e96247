@@ -1,0 +1,11 @@
+package com.bizleap.training.ds.service;
+
+import java.util.List;
+
+import com.bizleap.commons.domain.Company;
+
+public interface CompanyService {
+	public List<Company> findCompanyByBoId(String boId);
+	public void saveCompany(Company company);
+	public List<Company> getAllCompany();
+}

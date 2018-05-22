@@ -1,0 +1,31 @@
+package com.bizleap.training.ds.service.impl.test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+
+import org.apache.commons.collections4.CollectionUtils;
+import org.apache.log4j.Logger;
+import org.junit.Test;
+
+import com.bizleap.commons.domain.exception.ServiceUnavailableException;
+import com.bizleap.training.ds.loader.impl.test.DataManagerImplTest;
+import com.bizleap.training.ds.loader.impl.test.ServiceTest;
+
+public class EmployeeServiceImplTest extends ServiceTest {
+	static Logger logger=Logger.getLogger(DataManagerImplTest.class);	
+	
+	//@Ignore
+		@Test
+		public void testFindByCompanyBoId()throws ServiceUnavailableException{
+			assertNotNull(companyService.findByEmployeeBoId("COMP01"));
+			logger.info("Company List:"+companyService.findByEmployeeBoId("COMP01"));
+			assertTrue(CollectionUtils.isNotEmpty(companyService.findByEmployeeBoId("COMP01")));
+		}	
+	
+	@Test
+	public void testfindByEmployeeBoId()throws ServiceUnavailableException{
+		assertEquals(8,employeeService.getAllEmployee().size());		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.bizleap.training.ds.loader;
+
+import java.util.List;
+
+import com.bizleap.commons.domain.Company;
+
+public interface CompanySaver {
+	
+	public void savePass1();
+	public void setCompanyList(List<Company> companyList);
+}

@@ -1,0 +1,7 @@
+1526959810987	Rename method 'findByCompanyBoId'
+1526965331418	Rename method 'hibernateInitialize'
+1526965421618	Rename method 'hibernateInitializeEmployees'
+1526965443034	Rename local variable 'employee'
+1526965797718	Rename method 'hibernateInitializeEmployeesList'
+1526965874503	Rename method 'hibernateInitializeList'
+1526966997702	Rename local variable 'employees'

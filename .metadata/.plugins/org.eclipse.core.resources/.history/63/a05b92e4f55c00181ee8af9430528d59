@@ -1,0 +1,52 @@
+package com.bizleap.training.ds.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.bizleap.commons.domain.Company;
+import com.bizleap.commons.domain.enums.EntityType;
+import com.bizleap.commons.domain.exception.ServiceUnavailableException;
+import com.bizleap.training.ds.service.CompanyService;
+import com.bizleap.training.ds.service.dao.CompanyDao;
+
+@Service("companyService")
+@Transactional(readOnly=true)
+public class CompanyServiceImpl extends AbstractServiceImpl implements CompanyService {
+	
+	@Autowired
+	CompanyDao companyDao;
+	
+	@Override
+	public List<Company> findByCompanyBoId(String boId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	@Transactional(readOnly=false)
+	public void saveCompany(Company company) throws ServiceUnavailableException{
+		// TODO Auto-generated method stub
+		if(company.isBoIdRequired()) {
+			company.setBoId(getNextBoId());
+		}
+		companyDao.save(company);		
+	}
+
+	@Override
+	public List<Company> getAllCompany() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	@Override
+	public long getCount() {
+		return companyDao.getCount("select count(comp) from Company comp");
+	}
+	
+	public String getNextBoId() {
+		return getNextBoId(EntityType.COMPANY);
+	}
+}

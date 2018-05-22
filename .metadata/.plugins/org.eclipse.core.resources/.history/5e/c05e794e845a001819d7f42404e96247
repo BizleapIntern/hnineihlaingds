@@ -1,0 +1,5 @@
+package com.bizleap.training.ds.service.dao;
+
+public interface EmployeeDao {
+
+}

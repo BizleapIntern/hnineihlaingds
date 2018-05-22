@@ -1,0 +1,38 @@
+package com.bizleap.training.ds.loader.impl;
+
+import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Service;
+
+import com.bizleap.commons.domain.Company;
+import com.bizleap.training.ds.loader.CompanySaver;
+import com.bizleap.training.ds.loader.utils.Printer;
+
+@Service("companySaver")
+public class CompanySaverImpl implements CompanySaver {
+	private static Logger logger = Logger.getLogger(AssociationMapperImpl.class);
+	private static Printer printer = new Printer(logger);
+	
+	List<Company> companyList;
+	
+	@Override
+	public void savePass1() thorws ServiceUnavailableException{
+		for(Company company:getCompanyList()) {
+			Company toSaveCompany=new Comapny(company.getBoId());
+			toSaveCompany.setBoId(company.getBoId());
+			toSaveCompany.setBoId(company.getBoId());
+			toSaveCompany.setBoId(company.getBoId());
+			toSaveCompany.setBoId(company.getBoId());
+			toSaveCompany.setBoId(company.getBoId());
+			toSaveCompany.setBoId(company.getBoId());
+			
+		}
+		
+	}
+	
+	@Override
+	public void setCompanyList(List<Company> companyList) {
+		this.companyList=companyList;
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;com.bizleap.training.ds.service.CompanyService.findCompanyByBoId(...)&apos; to &apos;findByCompanyBoId&apos;&#x0D;&#x0A;- Original project: &apos;bizleap-ds-service&apos;&#x0D;&#x0A;- Original element: &apos;com.bizleap.training.ds.service.CompanyService.findCompanyByBoId(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;com.bizleap.training.ds.service.CompanyService.findByCompanyBoId(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;findCompanyByBoId&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src\/main\/java&lt;com.bizleap.training.ds.service{CompanyService.java[CompanyService~findCompanyByBoId~QString;" name="findByCompanyBoId" references="true" stamp="1526722667155" version="1.0"/>
+</session>
