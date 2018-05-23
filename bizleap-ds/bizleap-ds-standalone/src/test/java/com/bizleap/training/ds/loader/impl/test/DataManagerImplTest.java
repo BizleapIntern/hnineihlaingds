@@ -32,7 +32,7 @@ public class DataManagerImplTest extends ServiceTest{
 		dataManager.load();
 		
 		assertNotNull(dataManager.getEmployeeList());
-		logger.info("Employee List:"+dataManager.getEmployeeList());
+		logger.info("Employee List:"+dataManager.getEmployeeList());		
 		assertTrue(CollectionUtils.isNotEmpty(dataManager.getEmployeeList()));
 		assertEquals(8,dataManager.getEmployeeList().size());
 		

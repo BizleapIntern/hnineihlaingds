@@ -14,18 +14,20 @@
 <fullyQualifiedTypeName name="com.bizleap.core.domain.service.impl.test.ServiceTest"/>
 <fullyQualifiedTypeName name="com.bizleap.training.ds.loader.impl.DataManagerImpl"/>
 <fullyQualifiedTypeName name="org.apache.commons.collections4.CollectionUtils"/>
-<fullyQualifiedTypeName name="org.junit.Ignore"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
 <fullyQualifiedTypeName name="com.bizleap.training.ds.service.dao.impl.AbstractDaoImpl"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.bizleap.training.ds.loader.CompanySaver"/>
 <fullyQualifiedTypeName name="com.bizleap.commons.domain.exception.ServiceUnavailableException"/>
-<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
-<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
 <fullyQualifiedTypeName name="com.bizleap.commons.domain.Company"/>
 <fullyQualifiedTypeName name="com.bizleap.commons.domain.Employee"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="com.bizleap.training.ds.service.CompanyService"/>
 <fullyQualifiedTypeName name="com.bizleap.training.ds.service.EmployeeService"/>
+<fullyQualifiedTypeName name="com.bizleap.training.ds.loader.impl.test.ServiceTest"/>
+<fullyQualifiedTypeName name="org.hibernate.Hibernate"/>
+<fullyQualifiedTypeName name="org.junit.Ignore"/>
+<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
 </qualifiedTypeNameHistroy>

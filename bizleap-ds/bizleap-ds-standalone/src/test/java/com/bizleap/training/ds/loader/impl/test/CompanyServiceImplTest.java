@@ -1,6 +1,7 @@
 package com.bizleap.training.ds.loader.impl.test;
 
 import static org.junit.Assert.assertEquals;
+
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
@@ -12,6 +13,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.bizleap.commons.domain.enums.ObjectFullnessLevel;
 import com.bizleap.commons.domain.exception.ServiceUnavailableException;
 import com.bizleap.training.ds.loader.impl.test.DataManagerImplTest;
 import com.bizleap.training.ds.loader.impl.test.ServiceTest;
@@ -27,9 +29,17 @@ public class CompanyServiceImplTest extends ServiceTest {
 	@Test
 	
 	public void testFindByCompanyBoId()throws ServiceUnavailableException, IOException{
-		assertNotNull(companyService.findByCompanyBoId("COMP01"));
-		logger.info("Company List:"+companyService.findByCompanyBoId("COMP01"));
-		assertTrue(CollectionUtils.isNotEmpty(companyService.findByCompanyBoId("COMP01")));
+		assertNotNull(companyService.findByCompanyBoId("COMP01",ObjectFullnessLevel.FULL));
+		logger.info("Full:"+companyService.findByCompanyBoId("COMP01",ObjectFullnessLevel.FULL));
+		assertTrue(CollectionUtils.isNotEmpty(companyService.findByCompanyBoId("COMP01",ObjectFullnessLevel.FULL)));
+		
+		assertNotNull(companyService.findByCompanyBoId("COMP01",ObjectFullnessLevel.DETAILED));
+		logger.info("Detailed:"+companyService.findByCompanyBoId("COMP01",ObjectFullnessLevel.DETAILED));
+		assertTrue(CollectionUtils.isNotEmpty(companyService.findByCompanyBoId("COMP01",ObjectFullnessLevel.DETAILED)));
+		
+		assertNotNull(companyService.findByCompanyBoId("COMP01",ObjectFullnessLevel.SUMMARY));
+		logger.info("Summary:"+companyService.findByCompanyBoId("COMP01",ObjectFullnessLevel.SUMMARY));
+     	assertTrue(CollectionUtils.isNotEmpty(companyService.findByCompanyBoId("COMP01",ObjectFullnessLevel.SUMMARY)));
 	}	
 	
 	@Ignore
@@ -39,7 +49,5 @@ public class CompanyServiceImplTest extends ServiceTest {
 		logger.info("Employee List:"+companyService.getAllCompany());
 		assertTrue(CollectionUtils.isNotEmpty(companyService.getAllCompany()));
 		assertEquals(3,companyService.getAllCompany().size());
-	}
-	
-
+	}	
 }

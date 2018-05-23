@@ -25,17 +25,12 @@ public class CompanySaverImpl implements CompanySaver {
 	List<Company> companyList;
 	
 	@Override
-	public void savePass1() throws ServiceUnavailableException{
+	public void savePass1() throws ServiceUnavailableException, IOException{
 		printer.line2(companyList.toString());
 		for(Company company:getCompanyList()) {		
 			printer.line("About to save: "+company);
-			try {
-				companyService.saveCompany(company);
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
 			printer.line("Company successfully saved.");
+			companyService.saveCompany(company);
 		}
 	}
 	

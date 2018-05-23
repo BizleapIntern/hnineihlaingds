@@ -5,6 +5,7 @@ import java.util.List;
 import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 
 import com.bizleap.commons.domain.Employee;
@@ -21,7 +22,7 @@ public class EmployeeServiceImpl extends AbstractServiceImpl implements Employee
 
 	@Override
 	public List<Employee> findByEmployeeBoId(String boId) throws ServiceUnavailableException {
-		String queryStr = "from Employee employee where employee.boId=:dataInput";
+		String queryStr = "select employee from Employee employee where employee.boId=:dataInput";
 		List<Employee> employeeList;
 		employeeList = employeeDao.findByString(queryStr, boId);
 		hibernateInitializeEmployeeList(employeeList);
@@ -40,15 +41,19 @@ public class EmployeeServiceImpl extends AbstractServiceImpl implements Employee
 	}
 
 	@Override
-	public void saveEmployee(Employee employee) {
-		// TODO Auto-generated method stub
+	@Transactional(readOnly=false)
+	public void saveEmployee(Employee employee) throws ServiceUnavailableException {
+		if(employee.isBoIdRequired()) {
+			employee.setBoId(getNextBoId());
+		}
+		employeeDao.save(employee);
 	}
 
 	@Override
 	public List<Employee> getAllEmployee() {
-		List<Employee> employee = employeeDao.getAll("From Employee employee");
-		hibernateInitializeEmployeeList(employee);
-		return employee;
+		List<Employee> employeeList = employeeDao.getAll("From Employee employee");
+		hibernateInitializeEmployeeList(employeeList);
+		return employeeList;
 	}
 
 	public long getCount() {
@@ -61,7 +66,7 @@ public class EmployeeServiceImpl extends AbstractServiceImpl implements Employee
 
 	@Override
 	public void hibernateInitializeEmployeeList(List<Employee> employeeList) {
-		Hibernate.initialize(employeeList);
+		//Hibernate.initialize(employeeList);
 		for (Employee employee : employeeList)
 			hibernateInitializeEmployee(employee);
 	}

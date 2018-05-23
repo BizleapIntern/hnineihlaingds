@@ -933,3 +933,331 @@ Exception in save : com.bizleap.commons.domain.Company@255e5e2e[boId=COMP01,name
 2018-05-22 13:42:06 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
 2018-05-22 13:43:16 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
 2018-05-22 13:43:19 INFO  DataManagerImplTest:31 - Company List:[com.bizleap.commons.domain.Company@43f0c2d1[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]]
+2018-05-22 19:54:13 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:60 - File name....employee.txt
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/employee.txt
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:110 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:110 - line is: PER02,Alice_Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:110 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:110 - line is: PER04,Bob,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:110 - line is: PER05,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:110 - line is: PER06,Jenny,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:110 - line is: PER07,John_Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:110 - line is: PER08,John,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:60 - File name....company.txt
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/company.txt
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:110 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:110 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-22 19:54:16 DEBUG FileLoaderImpl:110 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-22 19:54:16 DEBUG CompanySaverImpl:19 - 
+2018-05-22 19:54:16 DEBUG CompanySaverImpl:20 - [com.bizleap.commons.domain.Company@270b6b5e[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@7e94d093[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@7c6189d5[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-22 19:54:16 DEBUG CompanySaverImpl:21 - 
+2018-05-22 19:54:16 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@270b6b5e[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-22 19:57:49 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:60 - File name....employee.txt
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/employee.txt
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:110 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:110 - line is: PER02,Alice_Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:110 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:110 - line is: PER04,Bob,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:110 - line is: PER05,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:110 - line is: PER06,Jenny,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:110 - line is: PER07,John_Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:110 - line is: PER08,John,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:60 - File name....company.txt
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/company.txt
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:110 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:110 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-22 19:57:53 DEBUG FileLoaderImpl:110 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-22 19:57:53 DEBUG CompanySaverImpl:19 - 
+2018-05-22 19:57:53 DEBUG CompanySaverImpl:20 - [com.bizleap.commons.domain.Company@2e1af49b[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@3fd2322d[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@56ac5c80[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-22 19:57:53 DEBUG CompanySaverImpl:21 - 
+2018-05-22 19:57:53 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@2e1af49b[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-22 19:57:54 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-22 19:57:54 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@3fd2322d[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-22 19:57:54 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-22 19:57:54 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@56ac5c80[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-22 19:57:54 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-22 19:57:54 INFO  DataManagerImplTest:35 - Employee List:[com.bizleap.commons.domain.Employee@d74bac4[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@5d5b5fa7[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@3cff0139[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@f096f37[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@440eaa07[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@624a24f6[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@7afbf561[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@4e73b552[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-22 19:57:54 INFO  DataManagerImplTest:40 - Company List:[com.bizleap.commons.domain.Company@2e1af49b[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@3fd2322d[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@56ac5c80[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-22 19:59:42 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-22 20:00:27 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-22 20:01:09 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-22 20:01:14 INFO  DataManagerImplTest:31 - Employee List:[com.bizleap.commons.domain.Employee@54bca971[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01]]
+2018-05-22 20:02:36 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-22 20:02:38 INFO  DataManagerImplTest:41 - Employee List:[com.bizleap.commons.domain.Employee@1c6c6f24[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@2eb917d0[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@c6b2dd9[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@73437222[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@ca93621[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@6a48a7f3[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@57a2ed35[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@12ffd1de[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-23 09:45:18 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:60 - File name....employee.txt
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/employee.txt
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:110 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:110 - line is: PER02,Alice_Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:110 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:110 - line is: PER04,Bob,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:110 - line is: PER05,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:110 - line is: PER06,Jenny,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:110 - line is: PER07,John_Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:110 - line is: PER08,John,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:60 - File name....company.txt
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/company.txt
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:110 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:110 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 09:45:24 DEBUG FileLoaderImpl:110 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 09:45:24 DEBUG CompanySaverImpl:19 - 
+2018-05-23 09:45:24 DEBUG CompanySaverImpl:20 - [com.bizleap.commons.domain.Company@2e1af49b[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@3fd2322d[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@56ac5c80[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 09:45:24 DEBUG CompanySaverImpl:21 - 
+2018-05-23 09:45:24 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@2e1af49b[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 09:45:24 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 09:45:24 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@3fd2322d[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 09:45:25 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 09:45:25 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@56ac5c80[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 09:45:25 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 09:45:25 INFO  DataManagerImplTest:35 - Employee List:[com.bizleap.commons.domain.Employee@d74bac4[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@5d5b5fa7[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@3cff0139[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@f096f37[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@440eaa07[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@624a24f6[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@7afbf561[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@4e73b552[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-23 09:45:25 INFO  DataManagerImplTest:40 - Company List:[com.bizleap.commons.domain.Company@2e1af49b[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@3fd2322d[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@56ac5c80[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 09:47:05 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 09:47:08 INFO  DataManagerImplTest:41 - Employee List:[com.bizleap.commons.domain.Employee@1c6c6f24[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@2eb917d0[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@c6b2dd9[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@73437222[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@ca93621[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@6a48a7f3[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@57a2ed35[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@12ffd1de[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-23 09:48:14 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 09:51:44 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:09:31 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:15:13 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:15:16 INFO  DataManagerImplTest:39 - Employee List:[com.bizleap.commons.domain.Employee@12ffd1de[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@3d278b4d[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@4096aa05[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@9d3c67[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@6c806c8b[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@6dfcffb5[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@71d8cfe7[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@1e530163[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-23 10:15:16 INFO  DataManagerImplTest:31 - Employee List:[com.bizleap.commons.domain.Employee@46a953cf[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01]]
+2018-05-23 10:22:05 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:22:54 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:22:56 INFO  DataManagerImplTest:39 - Employee List:[com.bizleap.commons.domain.Employee@38a1a26[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@3fbcfe81[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@7a1f45ed[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@1744a475[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@444cc791[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@1c5c616f[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@2eb917d0[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@c6b2dd9[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-23 10:24:10 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:24:12 INFO  DataManagerImplTest:31 - Employee List:[com.bizleap.commons.domain.Employee@46d63dbb[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01]]
+2018-05-23 10:27:23 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:31:43 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:60 - File name....employee.txt
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/employee.txt
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:110 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:110 - line is: PER02,Alice_Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:110 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:110 - line is: PER04,Bob,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:110 - line is: PER05,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:110 - line is: PER06,Jenny,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:110 - line is: PER07,John_Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:110 - line is: PER08,John,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:60 - File name....company.txt
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/company.txt
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:110 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:110 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 10:31:47 DEBUG FileLoaderImpl:110 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 10:31:47 DEBUG CompanySaverImpl:19 - 
+2018-05-23 10:31:47 DEBUG CompanySaverImpl:20 - [com.bizleap.commons.domain.Company@40298285[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@22367b8[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@41b0ae4c[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 10:31:47 DEBUG CompanySaverImpl:21 - 
+2018-05-23 10:31:47 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@40298285[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 10:31:48 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 10:31:48 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@22367b8[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 10:31:48 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 10:31:48 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@41b0ae4c[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 10:31:48 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 10:31:48 INFO  DataManagerImplTest:35 - Employee List:[com.bizleap.commons.domain.Employee@43a51d00[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@41bf79da[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@5ae95707[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@10bd9df0[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@7c29adc8[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@3effd4f3[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@6f4ade6e[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@86733[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-23 10:31:48 INFO  DataManagerImplTest:40 - Company List:[com.bizleap.commons.domain.Company@40298285[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@22367b8[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@41b0ae4c[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 10:32:29 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:32:32 INFO  DataManagerImplTest:39 - Employee List:[com.bizleap.commons.domain.Employee@12ffd1de[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@3d278b4d[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@4096aa05[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@9d3c67[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@6c806c8b[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@6dfcffb5[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@71d8cfe7[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@1e530163[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-23 10:32:32 INFO  DataManagerImplTest:31 - Employee List:[com.bizleap.commons.domain.Employee@46a953cf[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01]]
+2018-05-23 10:32:53 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:46:07 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 11:58:32 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:60 - File name....employee.txt
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/employee.txt
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:110 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:110 - line is: PER02,Alice_Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:110 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:110 - line is: PER04,Bob,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:110 - line is: PER05,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:110 - line is: PER06,Jenny,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:110 - line is: PER07,John_Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:110 - line is: PER08,John,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:60 - File name....company.txt
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/company.txt
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:110 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:110 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 11:58:42 DEBUG FileLoaderImpl:110 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 11:58:42 DEBUG CompanySaverImpl:19 - 
+2018-05-23 11:58:42 DEBUG CompanySaverImpl:20 - []
+2018-05-23 11:58:42 DEBUG CompanySaverImpl:21 - 
+2018-05-23 11:58:42 INFO  DataManagerImplTest:35 - Employee List:[]
+2018-05-23 12:06:28 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:60 - File name....employee.txt
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/employee.txt
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:110 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:110 - line is: PER02,Alice_Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:110 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:110 - line is: PER04,Bob,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:110 - line is: PER05,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:110 - line is: PER06,Jenny,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:110 - line is: PER07,John_Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:110 - line is: PER08,John,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:60 - File name....company.txt
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/company.txt
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:110 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:110 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 12:06:33 DEBUG FileLoaderImpl:110 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 12:06:33 DEBUG CompanySaverImpl:19 - 
+2018-05-23 12:06:33 DEBUG CompanySaverImpl:20 - []
+2018-05-23 12:06:33 DEBUG CompanySaverImpl:21 - 
+2018-05-23 12:06:33 INFO  DataManagerImplTest:35 - Employee List:[]
+2018-05-23 12:08:18 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:60 - File name....employee.txt
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/employee.txt
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:110 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:110 - line is: PER02,Alice_Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:110 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:110 - line is: PER04,Bob,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:110 - line is: PER05,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:110 - line is: PER06,Jenny,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:110 - line is: PER07,John_Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:110 - line is: PER08,John,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:60 - File name....company.txt
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/company.txt
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:110 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:110 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 12:08:22 DEBUG FileLoaderImpl:110 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 12:08:22 DEBUG CompanySaverImpl:19 - 
+2018-05-23 12:08:22 DEBUG CompanySaverImpl:20 - []
+2018-05-23 12:08:22 DEBUG CompanySaverImpl:21 - 
+2018-05-23 12:08:22 INFO  DataManagerImplTest:35 - Employee List:[]
+2018-05-23 12:09:16 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:60 - File name....employee.txt
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/employee.txt
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:110 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:110 - line is: PER02,Alice_Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:110 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:110 - line is: PER04,Bob,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:110 - line is: PER05,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:110 - line is: PER06,Jenny,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:110 - line is: PER07,John_Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:110 - line is: PER08,John,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:60 - File name....company.txt
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/company.txt
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:110 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:110 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 12:09:20 DEBUG FileLoaderImpl:110 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 12:09:20 DEBUG CompanySaverImpl:19 - 
+2018-05-23 12:09:20 DEBUG CompanySaverImpl:20 - []
+2018-05-23 12:09:20 DEBUG CompanySaverImpl:21 - 
+2018-05-23 12:09:20 INFO  DataManagerImplTest:35 - Employee List:[]
+2018-05-23 13:29:04 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 13:29:08 INFO  DataManagerImplTest:39 - Employee List:[]
+2018-05-23 13:29:08 INFO  DataManagerImplTest:31 - Employee List:[]
+2018-05-23 16:09:45 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:60 - File name....employee.txt
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/employee.txt
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:110 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:110 - line is: PER02,Alice_Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:110 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:110 - line is: PER04,Bob,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:110 - line is: PER05,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:110 - line is: PER06,Jenny,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:110 - line is: PER07,John_Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:110 - line is: PER08,John,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:60 - File name....company.txt
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/company.txt
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:110 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:110 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 16:09:51 DEBUG FileLoaderImpl:110 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 16:09:52 DEBUG CompanySaverImpl:19 - 
+2018-05-23 16:09:52 DEBUG CompanySaverImpl:20 - [com.bizleap.commons.domain.Company@7de843ef[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@2e1af49b[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@3fd2322d[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 16:09:52 DEBUG CompanySaverImpl:21 - 
+2018-05-23 16:09:52 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@7de843ef[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 16:09:52 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 16:09:52 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@2e1af49b[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 16:09:52 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 16:09:52 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@3fd2322d[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 16:09:52 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 16:09:52 INFO  DataManagerImplTest:35 - Employee List:[com.bizleap.commons.domain.Employee@373f7450[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@1640c151[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@670ce331[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@4bbb49b0[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@3ec2ecea[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@53a5e217[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@7c9bdee9[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@6b0615ae[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-23 16:09:52 INFO  DataManagerImplTest:40 - Company List:[com.bizleap.commons.domain.Company@7de843ef[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@2e1af49b[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@3fd2322d[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 16:10:20 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:10:24 INFO  DataManagerImplTest:39 - Employee List:[]
+2018-05-23 16:10:25 INFO  DataManagerImplTest:31 - Employee List:[]
+2018-05-23 16:11:06 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:11:10 INFO  DataManagerImplTest:50 - Employee List:[]
+2018-05-23 16:11:11 INFO  DataManagerImplTest:34 - Full:[]
+2018-05-23 16:13:12 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:13:16 INFO  DataManagerImplTest:50 - Employee List:[]
+2018-05-23 16:13:17 INFO  DataManagerImplTest:34 - Full:[]
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:60 - File name....employee.txt
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/employee.txt
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:110 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:110 - line is: PER02,Alice_Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:110 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:110 - line is: PER04,Bob,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:110 - line is: PER05,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:110 - line is: PER06,Jenny,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:110 - line is: PER07,John_Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:110 - line is: PER08,John,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:60 - File name....company.txt
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/company.txt
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:110 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:110 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 16:13:17 DEBUG FileLoaderImpl:110 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 16:13:17 DEBUG CompanySaverImpl:19 - 
+2018-05-23 16:13:17 DEBUG CompanySaverImpl:20 - [com.bizleap.commons.domain.Company@151ef57f[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@10895b16[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@5524b72f[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 16:13:17 DEBUG CompanySaverImpl:21 - 
+2018-05-23 16:13:17 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@151ef57f[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 16:13:17 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 16:13:17 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@10895b16[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 16:13:17 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 16:13:17 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@5524b72f[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 16:13:17 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 16:13:17 INFO  DataManagerImplTest:35 - Employee List:[com.bizleap.commons.domain.Employee@4a14c44f[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@17b6d426[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@3f9f71ff[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@764cba[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@2a066689[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@74294c1a[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@47a7a101[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@70f822e[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-23 16:13:17 INFO  DataManagerImplTest:40 - Company List:[com.bizleap.commons.domain.Company@151ef57f[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@10895b16[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@5524b72f[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 16:13:17 INFO  DataManagerImplTest:39 - Employee List:[com.bizleap.commons.domain.Employee@3e17a0a1[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@790a251b[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@4d8286c4[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@150ede8b[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@161f6623[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@3e15bb06[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@4e1ce44[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@69228e85[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-23 16:13:18 INFO  DataManagerImplTest:31 - Employee List:[com.bizleap.commons.domain.Employee@7efe7b87[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01]]
+2018-05-23 16:16:21 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:16:28 INFO  DataManagerImplTest:50 - Employee List:[]
+2018-05-23 16:16:28 INFO  DataManagerImplTest:34 - Full:[]
+2018-05-23 16:17:47 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:60 - File name....employee.txt
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/employee.txt
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:110 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:110 - line is: PER02,Alice_Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:110 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:110 - line is: PER04,Bob,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP02
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:110 - line is: PER05,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:110 - line is: PER06,Jenny,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:110 - line is: PER07,John_Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:110 - line is: PER08,John,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP03
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:60 - File name....company.txt
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:47 - About to read file: D:/bizleap/ds/data/company.txt
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:110 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:110 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 16:17:51 DEBUG FileLoaderImpl:110 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 16:17:51 DEBUG CompanySaverImpl:19 - 
+2018-05-23 16:17:51 DEBUG CompanySaverImpl:20 - [com.bizleap.commons.domain.Company@7de843ef[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@2e1af49b[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@3fd2322d[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 16:17:51 DEBUG CompanySaverImpl:21 - 
+2018-05-23 16:17:51 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@7de843ef[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 16:17:51 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 16:17:51 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@2e1af49b[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 16:17:51 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 16:17:52 DEBUG CompanySaverImpl:15 - About to save: com.bizleap.commons.domain.Company@3fd2322d[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 16:17:52 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 16:17:52 INFO  DataManagerImplTest:35 - Employee List:[com.bizleap.commons.domain.Employee@373f7450[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@1640c151[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@670ce331[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@4bbb49b0[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@3ec2ecea[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@53a5e217[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@7c9bdee9[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@6b0615ae[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-23 16:17:52 INFO  DataManagerImplTest:40 - Company List:[com.bizleap.commons.domain.Company@7de843ef[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@2e1af49b[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@3fd2322d[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 16:18:14 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:18:53 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:18:56 INFO  DataManagerImplTest:39 - Employee List:[com.bizleap.commons.domain.Employee@12ffd1de[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@3d278b4d[boId=PER02,name=Alice_Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@4096aa05[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@9d3c67[boId=PER04,name=Bob,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@6c806c8b[boId=PER05,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@6dfcffb5[boId=PER06,name=Jenny,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@71d8cfe7[boId=PER07,name=John_Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@1e530163[boId=PER08,name=John,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP03]]
+2018-05-23 16:18:56 INFO  DataManagerImplTest:31 - Employee List:[com.bizleap.commons.domain.Employee@46a953cf[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01]]
+2018-05-23 16:22:39 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:25:06 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:29:29 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:29:32 INFO  DataManagerImplTest:32 - Company BoId []
+2018-05-23 16:34:37 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:34:39 INFO  DataManagerImplTest:32 - Company BoId []
+2018-05-23 16:36:04 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:36:06 INFO  DataManagerImplTest:32 - Company BoId []
+2018-05-23 16:36:45 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:36:47 INFO  DataManagerImplTest:32 - Company BoId 0
+2018-05-23 16:40:14 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:41:05 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:41:07 INFO  DataManagerImplTest:32 - Company BoId 0
+2018-05-23 16:42:02 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:44:52 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:44:55 INFO  DataManagerImplTest:32 - Company Size3
+2018-05-23 16:45:29 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:46:10 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 16:46:12 INFO  DataManagerImplTest:33 - Full:[com.bizleap.commons.domain.Company@71d8cfe7[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]]
+2018-05-23 16:46:13 INFO  DataManagerImplTest:37 - Detailed:[com.bizleap.commons.domain.Company@3abfe845[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]]
+2018-05-23 16:46:14 INFO  DataManagerImplTest:41 - Summary:[com.bizleap.commons.domain.Company@5fbdc49b[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]]

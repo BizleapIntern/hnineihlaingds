@@ -1,0 +1,5 @@
+package com.bizleap.commons.domain.enums;
+
+public enum Object {
+
+}

@@ -72,7 +72,7 @@ public abstract class AbstractDaoImpl<E, I extends Serializable> implements Abst
 	@Override
 	public List<E> findByString(String queryString, String data, String data1) {
 		List<E> entityList;
-		Query query = getCurrentSession().createQuery(queryString).setParameter("dataInput",data).setParameter("dataInput",data1);;
+		Query query = getCurrentSession().createQuery(queryString).setParameter("dataInput",data).setParameter("dataInput1",data1);
 		entityList = query.list();
 		for (E entity : entityList)
 			Hibernate.initialize(entity);
@@ -82,7 +82,7 @@ public abstract class AbstractDaoImpl<E, I extends Serializable> implements Abst
 	@Override
 	public List<E> findByIntegerString(String queryString, Integer data, String data1) {
 		List<E> entityList;
-		Query query = getCurrentSession().createQuery(queryString).setParameter("dataInput",data).setParameter("dataInput",data1);;
+		Query query = getCurrentSession().createQuery(queryString).setParameter("dataInput",data).setParameter("dataInput1",data1);
 		entityList = query.list();
 		for (E entity : entityList)
 			Hibernate.initialize(entity);
@@ -102,7 +102,7 @@ public abstract class AbstractDaoImpl<E, I extends Serializable> implements Abst
 	@Override
 	public List<E> findByStringInteger(String queryString, String data, int data1) {
 		List<E> entityList;
-		Query query = getCurrentSession().createQuery(queryString).setParameter("dataInput",data).setParameter("dataInput",data1);;
+		Query query = getCurrentSession().createQuery(queryString).setParameter("dataInput",data).setParameter("dataInput1",data1);
 		entityList = query.list();
 		for (E entity : entityList)
 			Hibernate.initialize(entity);
